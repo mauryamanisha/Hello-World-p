@@ -2,7 +2,7 @@
  version: 2
  jobs:
   One:
-    Docker:
+    docker:
       - image: cimg/ruby:2.6.8
         auth:
           username: mydockerhub-user
